@@ -81,7 +81,7 @@ Depois, acesse [http://127.0.0.1:4173/](http://127.0.0.1:4173/).
 
 O `index.html` já contém idioma `pt-BR`, viewport, title, description, canonical, Open Graph, Twitter Cards e JSON-LD de `ProfessionalService`. Também foram incluídos `robots.txt` e `sitemap.xml`.
 
-Antes de publicar, substitua o placeholder `https://SEU-DOMINIO-AQUI.com.br/` pelo domínio real em:
+O domínio de produção já está configurado como `https://carvalhosecurityfire.com/` em:
 
 - `index.html`
 - `robots.txt`

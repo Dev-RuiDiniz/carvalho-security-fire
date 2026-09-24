@@ -35,11 +35,13 @@ O vermelho deve funcionar como sinal: uma ação principal por grupo, estados at
 
 ### Tipografia
 
-As fontes são carregadas pelo Google Fonts:
+As fontes são versionadas localmente em `assets/` para reduzir dependências externas, evitar bloqueio de renderização e garantir entrega compatível na Hostinger:
 
 - **Barlow Condensed, peso 500:** títulos, números de impacto e chamadas editoriais. Sempre em caixa alta, com largura compacta e `letter-spacing` negativo.
 - **Inter, pesos 400–800:** corpo de texto, navegação, botões e informações de contato.
 - **IBM Plex Mono, peso 600:** etiquetas técnicas, eyebrow, listas de checklist, microcopy e dados operacionais.
+
+Os arquivos locais seguem os pesos usados pela interface: Barlow Condensed 400/500/600/700, IBM Plex Mono 400/500/600 e Inter variável 400–800.
 
 Papéis tipográficos:
 
@@ -159,7 +161,7 @@ O hero usa `fetchpriority="high"`. As demais imagens de conteúdo usam `loading=
 
 - Documento em `lang="pt-BR"`, com um único `h1` e hierarquia progressiva de `h2` e `h3`.
 - Title e description orientados a proteção contra incêndio, atendimento rápido e conformidade.
-- Canonical, Open Graph, Twitter Cards e JSON-LD `ProfessionalService` usam o placeholder `https://SEU-DOMINIO-AQUI.com.br/` até a confirmação do domínio final.
+- Canonical, Open Graph, Twitter Cards e JSON-LD `ProfessionalService` usam `https://carvalhosecurityfire.com/`.
 - `robots.txt` aponta para `sitemap.xml`, ambos na raiz pública.
 - Links de telefone, WhatsApp e e-mail devem continuar funcionais.
 - Foco visível, navegação por teclado, contraste suficiente e menu mobile com estado anunciado.
