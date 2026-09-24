@@ -231,6 +231,13 @@
     .cta-actions{display:flex;flex-wrap:wrap;gap:.65rem}
     footer{padding:2.2rem 0 1rem;background:var(--bg-deep)}
     .footer-grid{display:grid;grid-template-columns:1.25fr .82fr .95fr 1.25fr;gap:2.3rem;padding-bottom:2.35rem;border-bottom:1px solid var(--line)}
+    .partner-strip{padding:1.55rem 0 2.35rem;border-bottom:1px solid var(--line)}
+    .partner-title{margin:0 0 1rem;color:#f0443a;font:600 .7rem/1.2 "IBM Plex Mono",monospace;letter-spacing:.14em;text-transform:uppercase}
+    .partner-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+    .partner-card{min-height:96px;display:flex;align-items:center;justify-content:center;padding:1rem;background:#f5f3ee;border:1px solid rgba(255,255,255,.18);overflow:hidden;transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+    .partner-card:hover{border-color:rgba(239,46,39,.72);box-shadow:0 10px 24px rgba(0,0,0,.2);transform:translateY(-3px)}
+    .partner-card:focus-within{outline:2px solid var(--accent);outline-offset:3px}
+    .partner-card img{display:block;width:100%;height:70px;object-fit:contain}
     .footer-brand p{max-width:230px;margin:.9rem 0 0;color:#888d89;font:500 .56rem/1.65 "IBM Plex Mono",monospace;letter-spacing:.13em;text-transform:uppercase}
     .footer-col h3{margin:0 0 .95rem;color:#777c78;font:600 .57rem/1.2 "IBM Plex Mono",monospace;letter-spacing:.15em;text-transform:uppercase}
     .footer-col a,.footer-col p{display:block;margin:.5rem 0;color:#c4c7c4;font-size:.67rem}
@@ -345,6 +352,8 @@
       .field-note{grid-column:auto}
       .footer-grid{grid-template-columns:1fr}
       .footer-brand{grid-column:auto}
+      .partner-grid{grid-template-columns:1fr}
+      .partner-card{min-height:92px}
     }
     @media (prefers-reduced-motion:reduce){
       *,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}
@@ -593,7 +602,21 @@
           <div class="footer-company-meta">Fundada em 24/01/2024<br />CNPJ: 53.575.265/0001-84</div>
           <span class="social-mark" aria-label="LinkedIn">in</span>
         </div>
-      </div>
+        </div>
+        <section class="partner-strip" aria-label="Parceiros estratégicos">
+          <h3 class="partner-title">Nossos Parceiros:</h3>
+          <div class="partner-grid">
+            <div class="partner-card">
+              <img src="assets/partner-ups-healthcare.webp" alt="UPS Healthcare" width="1254" height="314" loading="lazy" decoding="async" />
+            </div>
+            <div class="partner-card">
+              <img src="assets/partner-upt-logistics-healthcare.webp" alt="UPT Logistics Healthcare" width="1254" height="314" loading="lazy" decoding="async" />
+            </div>
+            <div class="partner-card">
+              <img src="assets/partner-bomi-group.webp" alt="BOMI Group, uma empresa UPS" width="1254" height="314" loading="lazy" decoding="async" />
+            </div>
+          </div>
+        </section>
       <div class="foot-bottom">
         <span>© 2026 Carvalho Security Fire. Todos os direitos reservados.</span>
         <span>Protegendo hoje. O amanhã em operação.</span>
