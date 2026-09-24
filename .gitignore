@@ -1,0 +1,6 @@
+# Artefatos locais de auditoria e preview
+.playwright-cli/
+output/
+
+# Cópias locais legadas das fontes; a versão publicada fica em assets/
+assets/fonts/
