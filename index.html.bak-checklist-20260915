@@ -168,8 +168,8 @@
     /* FM-200 */
     .section-dark{background:var(--bg);padding:0}
     .fm-wrap{display:grid;grid-template-columns:minmax(190px,.84fr) minmax(280px,1.22fr) minmax(240px,1fr);min-height:480px;border-inline:1px solid var(--line)}
-    .fm-check{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:1.1rem;align-content:start;padding:2.8rem 2rem;border-right:1px solid var(--line);background:#0c1011}
-    .fm-check h3{grid-column:1/-1;margin:0 0 1.65rem;color:#c4c7c3;font:500 .63rem/1.2 "IBM Plex Mono",monospace;letter-spacing:.22em;text-transform:uppercase}
+    .fm-check{padding:2.8rem 2rem;border-right:1px solid var(--line);background:#0c1011}
+    .fm-check h3{margin:0 0 1.65rem;color:#c4c7c3;font:500 .63rem/1.2 "IBM Plex Mono",monospace;letter-spacing:.22em;text-transform:uppercase}
     .check-item{display:flex;gap:.65rem;padding:.63rem 0;border-bottom:1px solid rgba(255,255,255,.09);color:#aeb2ae;font:500 .56rem/1.35 "IBM Plex Mono",monospace;letter-spacing:.06em;text-transform:uppercase}
     .check-item::before{content:"◇";color:var(--accent);font-size:.75rem}
     .fm-media{position:relative;height:480px;min-height:0;overflow:hidden;background:#101516}
@@ -301,7 +301,7 @@
       .service-aside{min-height:280px;margin-top:8px;border-left:0}
       .service-aside h3{font-size:2.5rem}
       .fm-wrap{grid-template-columns:1fr;min-height:0;border-inline:0}
-      .fm-check{grid-template-columns:1fr;padding:2.2rem 1.3rem;border-right:0;border-bottom:1px solid var(--line)}
+      .fm-check{padding:2.2rem 1.3rem;border-right:0;border-bottom:1px solid var(--line)}
       .fm-media{min-height:480px}
       .fm-copy{padding:2.4rem 1.3rem 3rem}
       .fm-copy h2{font-size:5rem}
@@ -466,12 +466,6 @@
           <div class="check-item">Infraestrutura elétrica</div>
           <div class="check-item">Relatórios técnicos</div>
           <div class="check-item">Conformidade NBR 17240</div>
-          <div class="check-item">Detector linear</div>
-          <div class="check-item">Luminárias de emergência</div>
-          <div class="check-item">Mangueiras extintores</div>
-          <div class="check-item">Válvula de governo</div>
-          <div class="check-item">Válvula pré action</div>
-          <div class="check-item">Detector Vesda por aspiração</div>
         </div>
         <div class="fm-media">
           <img src="assets/fm200.webp" alt="Cilindro vermelho de supressão FM-200 em uma sala técnica." width="858" height="1833" loading="lazy" decoding="async" />

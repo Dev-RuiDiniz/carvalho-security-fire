@@ -38,10 +38,8 @@
       "logo": "https://SEU-DOMINIO-AQUI.com.br/assets/favicon.svg",
       "image": "https://SEU-DOMINIO-AQUI.com.br/assets/og-cover.webp",
       "description": "Manutenção, instalação, adequação e suporte especializado em sistemas de alarme, detecção e supressão de incêndio.",
-      "telephone": "+55 11 94806-0264",
-      "email": "financeiro@carvalhosecurityfire.com",
-      "foundingDate": "2024-01-24",
-      "taxID": "53.575.265/0001-84",
+      "telephone": "+55 11 93000-0000",
+      "email": "contato@carvalhosecurityfire.com.br",
       "areaServed": {
         "@type": "AdministrativeArea",
         "name": "São Paulo e região metropolitana"
@@ -101,8 +99,8 @@
     .nav.scrolled{position:fixed;background:rgba(7,9,10,.88);border-color:var(--line);backdrop-filter:blur(16px)}
     .nav-inner{height:88px;display:grid;grid-template-columns:220px minmax(0,1fr) auto;align-items:center;gap:2.3rem}
     .brand{display:flex;align-items:center;gap:.72rem;min-width:0}
-    .brand-mark{width:176px;height:70px;flex:0 0 auto;display:block}
-    .brand-mark img{display:block;width:100%;height:100%;object-fit:contain;mix-blend-mode:screen}
+    .brand-mark{width:32px;height:42px;flex:0 0 auto;filter:drop-shadow(0 0 16px rgba(228,49,40,.22))}
+    .brand-mark svg{width:100%;height:100%}
     .brand-title{font:600 1.45rem/.82 "Barlow Condensed",sans-serif;letter-spacing:.04em;text-transform:uppercase}
     .brand-title small{display:block;margin-top:.38rem;color:#c8cbc7;font:500 .49rem/1 "IBM Plex Mono",monospace;letter-spacing:.28em}
     .menu{display:flex;justify-content:center;gap:1.55rem;font-size:.6rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#d7d8d5}
@@ -168,8 +166,8 @@
     /* FM-200 */
     .section-dark{background:var(--bg);padding:0}
     .fm-wrap{display:grid;grid-template-columns:minmax(190px,.84fr) minmax(280px,1.22fr) minmax(240px,1fr);min-height:480px;border-inline:1px solid var(--line)}
-    .fm-check{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:1.1rem;align-content:start;padding:2.8rem 2rem;border-right:1px solid var(--line);background:#0c1011}
-    .fm-check h3{grid-column:1/-1;margin:0 0 1.65rem;color:#c4c7c3;font:500 .63rem/1.2 "IBM Plex Mono",monospace;letter-spacing:.22em;text-transform:uppercase}
+    .fm-check{padding:2.8rem 2rem;border-right:1px solid var(--line);background:#0c1011}
+    .fm-check h3{margin:0 0 1.65rem;color:#c4c7c3;font:500 .63rem/1.2 "IBM Plex Mono",monospace;letter-spacing:.22em;text-transform:uppercase}
     .check-item{display:flex;gap:.65rem;padding:.63rem 0;border-bottom:1px solid rgba(255,255,255,.09);color:#aeb2ae;font:500 .56rem/1.35 "IBM Plex Mono",monospace;letter-spacing:.06em;text-transform:uppercase}
     .check-item::before{content:"◇";color:var(--accent);font-size:.75rem}
     .fm-media{position:relative;height:480px;min-height:0;overflow:hidden;background:#101516}
@@ -230,7 +228,6 @@
     .footer-contact svg{flex:0 0 auto;width:25px;height:25px;color:var(--accent)}
     .footer-contact strong{display:block;color:#f0ede7;font-size:.76rem}
     .footer-contact small{display:block;margin-top:.25rem;color:#8e938f;font:500 .51rem/1.5 "IBM Plex Mono",monospace;letter-spacing:.08em;text-transform:uppercase}
-    .footer-company-meta{margin-top:.75rem;color:#8e938f;font:500 .51rem/1.5 "IBM Plex Mono",monospace;letter-spacing:.08em;text-transform:uppercase}
     .social-mark{display:inline-grid;place-items:center;width:25px;height:25px;margin-top:.95rem;border:1px solid rgba(255,255,255,.35);border-radius:4px;color:#e9e6df;font-weight:800;font-size:.75rem}
     .foot-bottom{display:flex;justify-content:space-between;gap:1rem;padding-top:1.1rem;color:#6f7470;font:500 .5rem/1.4 "IBM Plex Mono",monospace;letter-spacing:.08em;text-transform:uppercase}
 
@@ -263,7 +260,7 @@
       html{scroll-behavior:auto}
       .shell{width:min(calc(100% - 28px),var(--max))}
       .nav-inner{height:74px;grid-template-columns:minmax(0,1fr) auto auto}
-      .brand-mark{width:145px;height:58px}
+      .brand-title{font-size:1.28rem}
       .menu{position:absolute;top:74px;right:14px;left:14px;display:flex;flex-direction:column;gap:0;padding:.65rem 1.1rem;background:rgba(7,9,10,.97);border:1px solid var(--line);box-shadow:var(--shadow);opacity:0;pointer-events:none;transform:translateY(-8px);transition:opacity .2s ease,transform .2s ease}
       .menu.is-open{opacity:1;pointer-events:auto;transform:translateY(0)}
       .menu a{padding:.85rem 0;border-bottom:1px solid rgba(255,255,255,.08)}
@@ -293,7 +290,6 @@
       .section-head h2{font-size:clamp(3.45rem,14vw,5.2rem)}
       .section-head p{font-size:.8rem}
       .services-layout{grid-template-columns:1fr}
-      .service-aside,.fm-media,.field-photo,.architecture{width:100vw;margin-left:calc(50% - 50vw)}
       .cap-grid{grid-template-columns:repeat(2,1fr)}
       .cap-card{min-height:235px;border-bottom:1px solid var(--line-dark)}
       .cap-card:nth-child(2){border-right:0}
@@ -301,14 +297,14 @@
       .service-aside{min-height:280px;margin-top:8px;border-left:0}
       .service-aside h3{font-size:2.5rem}
       .fm-wrap{grid-template-columns:1fr;min-height:0;border-inline:0}
-      .fm-check{grid-template-columns:1fr;padding:2.2rem 1.3rem;border-right:0;border-bottom:1px solid var(--line)}
+      .fm-check{padding:2.2rem 1.3rem;border-right:0;border-bottom:1px solid var(--line)}
       .fm-media{min-height:480px}
       .fm-copy{padding:2.4rem 1.3rem 3rem}
       .fm-copy h2{font-size:5rem}
-      .field-grid{grid-template-columns:1fr}
+      .field-grid{grid-template-columns:1fr 1fr}
       .field-copy{grid-column:1/-1;padding:3.4rem 0 2.2rem}
       .field-copy h2{max-width:360px;font-size:4rem}
-      .field-photo{grid-column:1/-1;min-height:260px;border-top:7px solid var(--paper);border-left:0}
+      .field-photo{min-height:260px;border-top:7px solid var(--paper)}
       .field-note{grid-column:1/-1;min-height:180px;border-top:7px solid var(--paper);border-left:0}
       .compliance-grid{grid-template-columns:1fr}
       .architecture{min-height:320px;border-right:0;border-bottom:1px solid var(--line)}
@@ -347,9 +343,13 @@
   <header class="nav" id="nav">
     <div class="shell nav-inner">
       <a class="brand" href="#inicio" aria-label="Carvalho Security Fire">
-        <span class="brand-mark">
-          <img src="assets/ChatGPT%20Image%2015%20de%20set.%20de%202026%2C%2000_33_28.png" alt="" />
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21 2C21 10 12 14 12 23C12 27 14 30 17 32C15 25 21 22 24 17C30 25 34 30 34 37C34 44 28 49 20 49C12 49 6 44 6 36C6 29 10 24 14 19C14 26 17 27 19 28C18 19 23 14 21 2Z" fill="#E43128"/>
+            <path d="M22 28C26 33 27 36 27 39C27 43 24 46 20 46C16 46 13 43 13 39C13 35 16 33 18 30C18 34 20 35 21 35C21 32 22 30 22 28Z" fill="#0B0E0F"/>
+          </svg>
         </span>
+        <span class="brand-title">Carvalho<small>Security Fire</small></span>
       </a>
       <nav class="menu" id="main-menu" aria-label="Navegação principal">
         <a href="#inicio" aria-current="page">Início</a>
@@ -359,9 +359,9 @@
         <a href="#sobre">Sobre</a>
         <a href="#contato">Contato</a>
       </nav>
-      <a class="hotline" href="tel:+5511948060264">
+      <a class="hotline" href="tel:+5511930000000">
         <span class="hotline-badge">24H</span>
-        <span class="hotline-copy">Contato comercial<b>11 94806-0264</b></span>
+        <span class="hotline-copy">Atendimento emergencial<b>11 93000-0000</b></span>
       </a>
       <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-controls="main-menu" aria-expanded="false">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
@@ -466,12 +466,6 @@
           <div class="check-item">Infraestrutura elétrica</div>
           <div class="check-item">Relatórios técnicos</div>
           <div class="check-item">Conformidade NBR 17240</div>
-          <div class="check-item">Detector linear</div>
-          <div class="check-item">Luminárias de emergência</div>
-          <div class="check-item">Mangueiras extintores</div>
-          <div class="check-item">Válvula de governo</div>
-          <div class="check-item">Válvula pré action</div>
-          <div class="check-item">Detector Vesda por aspiração</div>
         </div>
         <div class="fm-media">
           <img src="assets/fm200.webp" alt="Cilindro vermelho de supressão FM-200 em uma sala técnica." width="858" height="1833" loading="lazy" decoding="async" />
@@ -543,8 +537,8 @@
         <div class="cta-right">
           <p>Nossa equipe está pronta para atender sua demanda, seja uma manutenção, projeto, readequação ou atendimento emergencial. Fale agora e tenha suporte técnico especializado.</p>
           <div class="cta-actions">
-            <a class="btn primary" href="https://wa.me/5511948060264">Falar com a equipe 24h <span class="arrow">→</span></a>
-            <a class="btn" href="mailto:financeiro@carvalhosecurityfire.com">Solicitar orçamento</a>
+            <a class="btn primary" href="https://wa.me/5511930000000">Falar com a equipe 24h <span class="arrow">→</span></a>
+            <a class="btn" href="mailto:contato@carvalhosecurityfire.com.br">Solicitar orçamento</a>
           </div>
         </div>
       </div>
@@ -556,9 +550,13 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <a class="brand" href="#inicio" aria-label="Voltar ao início">
-            <span class="brand-mark">
-              <img src="assets/ChatGPT%20Image%2015%20de%20set.%20de%202026%2C%2000_33_28.png" alt="" />
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 40 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 2C21 10 12 14 12 23C12 27 14 30 17 32C15 25 21 22 24 17C30 25 34 30 34 37C34 44 28 49 20 49C12 49 6 44 6 36C6 29 10 24 14 19C14 26 17 27 19 28C18 19 23 14 21 2Z" fill="#E43128"/>
+                <path d="M22 28C26 33 27 36 27 39C27 43 24 46 20 46C16 46 13 43 13 39C13 35 16 33 18 30C18 34 20 35 21 35C21 32 22 30 22 28Z" fill="#0B0E0F"/>
+              </svg>
             </span>
+            <span class="brand-title">Carvalho<small>Security Fire</small></span>
           </a>
           <p>Sistemas que protegem o que realmente importa.</p>
         </div>
@@ -579,10 +577,8 @@
           <h4>Atendimento</h4>
           <div class="footer-contact">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 4h3l1.5 4-2 1.5a12 12 0 0 0 5 5l1.5-2 4 1.5v3c0 1.1-.9 2-2 2C11.4 19 5 12.6 5 5.5 5 4.7 5.7 4 7 4Z"/></svg>
-            <div><strong>11 94806-0264</strong><small>Contato comercial<br />São Paulo · SP</small></div>
+            <div><strong>11 93000-0000</strong><small>Atendimento 24h<br />São Paulo · SP</small></div>
           </div>
-          <a class="footer-email" href="mailto:financeiro@carvalhosecurityfire.com">financeiro@carvalhosecurityfire.com</a>
-          <div class="footer-company-meta">Fundada em 24/01/2024<br />CNPJ: 53.575.265/0001-84</div>
           <span class="social-mark" aria-label="LinkedIn">in</span>
         </div>
       </div>
