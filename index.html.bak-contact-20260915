@@ -39,7 +39,7 @@
       "image": "https://SEU-DOMINIO-AQUI.com.br/assets/og-cover.webp",
       "description": "Manutenção, instalação, adequação e suporte especializado em sistemas de alarme, detecção e supressão de incêndio.",
       "telephone": "+55 11 93000-0000",
-      "email": "contato@carvalhosecurityfire.com.br",
+      "email": "comercial@carvalhosecurityfire.com",
       "areaServed": {
         "@type": "AdministrativeArea",
         "name": "São Paulo e região metropolitana"
@@ -534,7 +534,7 @@
           <p>Nossa equipe está pronta para atender sua demanda, seja uma manutenção, projeto, readequação ou atendimento emergencial. Fale agora e tenha suporte técnico especializado.</p>
           <div class="cta-actions">
             <a class="btn primary" href="https://wa.me/5511930000000">Falar com a equipe 24h <span class="arrow">→</span></a>
-            <a class="btn" href="mailto:contato@carvalhosecurityfire.com.br">Solicitar orçamento</a>
+            <a class="btn" href="mailto:comercial@carvalhosecurityfire.com">Solicitar orçamento</a>
           </div>
         </div>
       </div>

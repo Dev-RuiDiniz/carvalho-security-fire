@@ -35,7 +35,7 @@ Entre os contextos destacados estão salas técnicas, data centers, centros de c
 ### Contatos exibidos
 
 - Telefone e WhatsApp: **11 93000-0000**
-- E-mail: **contato@carvalhosecurityfire.com.br**
+- E-mail: **comercial@carvalhosecurityfire.com**
 - Área de atendimento: **São Paulo — SP e região metropolitana**
 
 Os dados acima são os contatos atualmente presentes no layout e devem ser confirmados antes da publicação definitiva.

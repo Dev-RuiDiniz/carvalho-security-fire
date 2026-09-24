@@ -9,7 +9,7 @@ CARVALHO SECURITY FIRE — LANDING PAGE
    - \`sitemap.xml\`
 5. Confirme antes da publicação:
    - telefone / WhatsApp: 11 93000-0000
-   - e-mail: contato@carvalhosecurityfire.com.br
+   - e-mail: comercial@carvalhosecurityfire.com
    - links finais e perfis sociais
    - logo oficial, caso queira substituir o símbolo vetorial atual
 6. A landing continua standalone, com CSS e JavaScript embutidos no próprio \`index.html\`.
